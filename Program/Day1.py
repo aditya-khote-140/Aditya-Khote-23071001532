@@ -41,7 +41,7 @@
 # 8. saperator
 
 
-print("Hello","How","are","you", sep="-")
+print("Hello","How","are","you", end="-")
 
 # 9.
 # a=5
@@ -78,3 +78,10 @@ print("Hello","How","are","you", sep="-")
 # b=10
 # print(id(a))
 # print(id(b))
+
+
+
+
+
+
+
