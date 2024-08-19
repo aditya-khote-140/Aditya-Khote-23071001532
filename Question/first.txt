@@ -1,1 +1,8 @@
 1 : Write a 'Hello World' in python.
+
+2 : WAP to perform all the arithmatic operation on the diffrent numeric data type and show there result along with error (if any exist).
+
+4 : WAP to calculate a Area of rectangle.
+5 : WAP to calculate a Area of Triangle.
+6 : WAP to calculate a Area of Cuboid.
+7 : WAP to calculate a area of 
