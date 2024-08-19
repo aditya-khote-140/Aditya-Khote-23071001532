@@ -23,3 +23,16 @@ print(int(113e2))
 
 print(int(0.356))
 
+print()
+
+# Convert boolean & complex :
+
+print(int(True))
+
+print(int(3+5j))
+
+print(int(3+0j))
+
+print(int(0+0j))
+
+print(int(0+5j))
