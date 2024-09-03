@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:800px;
+    background-color: tan;
+    margin: 0;
+}
+
+.game-container {
+    width: 550px;
+    height: 450px;
+    background: rgb(40, 188, 188);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+    width: 160px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b75b4;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#chances {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
