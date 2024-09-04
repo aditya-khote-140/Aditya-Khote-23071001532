@@ -17,4 +17,4 @@ print("Sum of digits:", sumof)
 #     sum += num
 #  print("Sum of digit :- ",sum)
 # else:
-#  print("Enter invalid number")
+#  print("Enter valid number")
