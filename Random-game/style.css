@@ -3,16 +3,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:800px;
-    background-color: tan;
+    height:850px;
+    background: linear-gradient(to top, rgb(212, 141, 110), rgb(255, 191, 132), rgb(236, 206, 255));
     margin: 0;
 }
 
 .game-container {
     width: 550px;
     height: 450px;
-    background: rgb(40, 188, 188);
     padding: 30px;
+    background: linear-gradient(to left, rgb(211, 197, 181), rgb(255, 200, 150), rgb(150, 200, 255));
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -24,22 +24,23 @@ input{
     font-size: 16px;
     width: 160px;
     margin: 10px 0;
-    border: 1px solid #ddd;
     border-radius: 4px;
+    border: 1px #000 solid;
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
-    border: none;
     border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
+    border: 1px #000 solid;
+    color: #000;
+    background: linear-gradient(to top, rgb(66, 55, 42), rgb(184, 173, 21), rgb(150, 200, 255));
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #3b75b4;
+    background: linear-gradient(to right, rgb(184, 179, 173), rgb(255, 200, 150), rgb(150, 200, 255));
+    border: 1px #000 solid;
 }
 
 #message {
