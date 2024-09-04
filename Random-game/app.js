@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (userGuess > computerNumber) {
             messageElement.textContent = 'Too high! Try again.';
         } else {
-            messageElement.textContent = "Congratulations! You Guess the  Right number ${computerNumber}.";
+            messageElement.textContent = `Congratulations! You Guess the  Right number ${computerNumber}.`;
             submitButton.disabled = true;  
         }
 
