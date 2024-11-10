@@ -3,17 +3,17 @@
 numbers = input("Enter numbers separated by spaces: ").split()
 numbers = [int(num) for num in numbers]
 
-max_value = numbers[0]
-min_value = numbers[0]
+max = numbers[0]
+min = numbers[0]
 
 for num in numbers:
     # Update max_value  
-    if num > max_value:
-        max_value = num
+    if num > max:
+        max = num
     # Update min_value 
-    if num < min_value:
-        min_value = num
+    if num < min:
+        min = num
 
-print("Maximum value:", max_value)
-print("Minimum value:", min_value)
+print("Maximum value:", max)
+print("Minimum value:", min)
 

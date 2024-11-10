@@ -1,4 +1,8 @@
 # Write a program to print a list using function.
-def list my_list = [1, 2, 3, 4, 5]
-for item in my_list:
-    print(item)
+
+def print_list(lst):
+    for item in lst:
+        print(item)
+
+sample_list = [1, 2, 3, 4, 5]
+print_list(sample_list)

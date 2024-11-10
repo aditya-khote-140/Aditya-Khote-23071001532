@@ -14,9 +14,9 @@ def createContact():
 def readContact(name):
     if name in contactBook:
         print("Contact Mil gaya!")
-        print("Age: {contactBook[name]['Age']}")
-        print("Email: {contactBook[name]['Email']}")
-        print("Phone: {contactBook[name]['Phone']}")
+        print("Age:" ,{contactBook[name]['Age']})
+        print("Email:",{contactBook[name]['Email']})
+        print("Phone:",{contactBook[name]['Phone']})
     else:
         print("Contact not found!",name)
 
